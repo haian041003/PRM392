@@ -32,21 +32,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="#FF0"
+                android:background="#ADAD25"
                 android:text="1"
                 android:textSize="36sp"
                 android:gravity="center"
-                android:textColor="#E32A69"/>
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/TextView2"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="#2196F3"
+                android:background="#7A6B0A"
                 android:gravity="center"
                 android:text="2"
-                android:textColor="#E32A69"
+                android:textColor="@color/black"
                 android:textSize="36sp"
                 tools:ignore="TextContrastCheck" />
 
@@ -68,21 +68,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="#FF0"
+                android:background="#9C27B0"
                 android:text="3"
                 android:textSize="36sp"
                 android:gravity="center"
-                android:textColor="#E32A69"/>
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/TextView4"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="#2196F3"
+                android:background="#FF0"
                 android:gravity="center"
                 android:text="4"
-                android:textColor="#E32A69"
+                android:textColor="@color/black"
                 android:textSize="36sp"
                 tools:ignore="TextContrastCheck" />
 
@@ -91,10 +91,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="#2196F3"
+                android:background="#F32140"
                 android:gravity="center"
                 android:text="5"
-                android:textColor="#E32A69"
+                android:textColor="@color/black"
                 android:textSize="36sp"
                 tools:ignore="TextContrastCheck" />
 
@@ -116,21 +116,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="4"
-                android:background="#FF0"
+                android:background="#A99510"
                 android:text="6"
                 android:textSize="36sp"
                 android:gravity="center"
-                android:textColor="#E32A69"/>
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/TextView7"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="#2196F3"
+                android:background="#C991CA"
                 android:gravity="center"
                 android:text="7"
-                android:textColor="#E32A69"
+                android:textColor="@color/black"
                 android:textSize="36sp"
                 tools:ignore="TextContrastCheck" />
 
