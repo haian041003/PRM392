@@ -18,8 +18,6 @@ import androidx.core.view.WindowInsetsCompat;
      private EditText editTextConfirmPassword;
      private Button buttonSignUp;
 
-     private final String REQUIRE = "Require";
-
      @Override
      protected void onCreate(Bundle savedInstanceState) {
          super.onCreate(savedInstanceState);
