@@ -1,82 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center_horizontal"
     android:padding="16dp"
-    android:id="@+id/main">
+    android:background="#ECEAF7" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="True Random Number Generator"
-        android:textSize="24sp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="32dp"/>
+    <!-- Tiêu đề lớn -->
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="True Random Number Generator"
+android:textSize="22sp"
+android:textStyle="bold"
+android:layout_marginBottom="24dp"
+android:layout_gravity="center" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginBottom="16dp">
+    <!-- Nhập giá trị Min -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:layout_marginBottom="16dp"
+android:gravity="center_vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Min:"
-            android:layout_marginEnd="8dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Min:"
+    android:textSize="16sp"
+    android:layout_marginEnd="8dp" />
 
-        <EditText
-            android:id="@+id/editTextMin"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:hint="Enter minimum value"
-            android:inputType="numberSigned"
-            tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginBottom="32dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Max:"
-            android:layout_marginEnd="8dp"/>
-
-        <EditText
-            android:id="@+id/editTextMax"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:hint="Enter maximum value"
-            android:inputType="numberSigned"
-            tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize" />
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/buttonGenerate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Generate"
-        android:layout_marginBottom="32dp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Result"
-        android:textSize="24sp"
-        />
-    <TextView
-        android:id="@+id/textViewResult"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="48sp"
-        android:layout_gravity="center"/>
-
+<EditText
+    android:id="@+id/editTextMin"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:hint="Nhập giá trị Min"
+    android:inputType="numberSigned"
+    android:ems="4"
+    tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize"/>
 </LinearLayout>
+
+    <!-- Nhập giá trị Max -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:layout_marginBottom="24dp"
+android:gravity="center_vertical">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Max:"
+    android:textSize="16sp"
+    android:layout_marginEnd="8dp" />
+
+<EditText
+    android:id="@+id/editTextMax"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:hint="Nhập giá trị Max"
+    android:inputType="numberSigned"
+    android:ems="4"
+    tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize"/>
+</LinearLayout>
+
+    <!-- Nút Generate -->
+<Button
+android:id="@+id/buttonGenerate"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Generate"
+android:layout_marginBottom="32dp"
+android:layout_gravity="center" />
+
+    <!-- Nhãn "Result" -->
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Result:"
+android:textSize="20sp"
+android:textStyle="bold"
+android:layout_marginBottom="8dp"
+android:layout_gravity="center" />
+
+    <!-- TextView hiển thị kết quả -->
+<TextView
+android:id="@+id/textViewResult"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="..."
+android:textSize="36sp"
+android:layout_gravity="center" />
+
+    </LinearLayout>
